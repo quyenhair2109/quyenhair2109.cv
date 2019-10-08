@@ -1,4 +1,8 @@
 *{margin: 0; padding: 0;}
+body, html{
+    width: 100%;
+    height: 100%;
+}
 .menu-top nav.navbar.navbar-light.bg-faded{
     height: 100px;
     background: white;
@@ -20,6 +24,21 @@ li.nav-item{
     font-size: 15px;
     color: #1010;
     line-height: 65px;
+}
+.info-block-1{
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+    position: relative;
+}
+.info-block-1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #e4555b;
 }
 @media(max-width:576px){
     *{}
