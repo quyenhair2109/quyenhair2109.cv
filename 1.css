@@ -25,6 +25,9 @@ li.nav-item{
     color: #1010;
     line-height: 65px;
 }
+.menu-top a.nav-link:hover{
+    color: black !important;
+}
 .info-block-1{
     height: 100%;
     width: 100%;
@@ -39,6 +42,37 @@ li.nav-item{
     width: 50%;
     height: 100%;
     background: #e4555b;
+    z-index: 1;
+}
+.info{
+    z-index: 2;
+    position: relative;
+    padding-top: 150px;
+}
+.info img{
+    border-radius: 50%;
+    width: 175px;
+    margin-bottom: 50px;
+}
+.info h2{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.info p{
+    color: black;
+    font-size: 16px;
+    line-height: 23px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 34px;
+}
+.info a.hire-button.btn.btn-primary{
+    width: 180px;
+    background: black;
+    border: none;
+    border-radius: 0px;
 }
 @media(max-width:576px){
     *{}
